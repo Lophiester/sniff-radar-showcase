@@ -66,18 +66,11 @@ flowchart TB
     classDef f fill:#1db954,color:#fff,stroke:none
 ```
 
-```
-Pawmunity/
-├── App/              # App entry and setup
-├── Core/             # Theme, Localization, Networking, Security, Debug
-├── Domain/           # Models and repository protocols
-├── Data/             # Repositories and services (Firebase)
-├── Features/         # Authentication, Maps, SniffAlerts, Chat, Home, Settings
-├── Infrastructure/
-└── Resources/
-functions/src/        # Cloud Functions in TypeScript (alerts)
-firestore.rules       # Security rules
-```
+<p align="center">
+  <img src="assets/project-structure.svg" width="100%" alt="Sniff Radar project structure in Xcode" />
+</p>
+
+<sub>The real folder structure of the app. Only file names are shown, the code stays private.</sub>
 
 ## Decisions I'm proud of
 
